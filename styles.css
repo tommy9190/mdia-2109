@@ -1,0 +1,21 @@
+/* header */
+.heading {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #2984df;
+    background-color: rgb(255, 249, 238);
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: underline;
+    max-width: fit-content;
+}
+
+/* main */
+.main-content {
+    margin: 0 auto;
+    margin-top: 6rem;
+    text-align: center;
+    background-color: #f9fffb;
+    list-style-position: inside;
+    border: #27ae60 2px solid;
+    width: 50%;
+}
