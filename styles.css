@@ -1,0 +1,58 @@
+/* header */
+h1,
+h2,
+h3 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+    color: #2984df;
+    background-color: rgb(255, 249, 238);
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: underline;
+    max-width: fit-content;
+}
+
+/* main */
+.main-content {
+    margin: 0 auto;
+    margin-top: 6rem;
+    text-align: center;
+    background-color: #f9fffb;
+    list-style-position: inside;
+    border: #27ae60 2px solid;
+    width: 50%;
+}
+
+/* sections */
+.section {
+    margin: 1rem 0;
+}
+
+/* subheadings */
+.subheading {
+    color: #27ae60;
+    padding: 0.5rem;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 auto 0;
+    text-decoration: underline;
+}
+
+.subheading__content {
+    text-align: left;
+    display: inline-block;
+}
+
+/* lists */
+.subheading__list {
+    padding: 0;
+}
+
+.section__list-highlight {
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: rgb(38, 43, 209);
+}
