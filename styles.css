@@ -1,6 +1,11 @@
 /* header */
-.heading {
+h1,
+h2,
+h3 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
     color: #2984df;
     background-color: rgb(255, 249, 238);
     text-align: center;
@@ -21,42 +26,32 @@
 }
 
 /* sections */
-.section-1,
-.section-2 {
-    margin: 1rem 0 1rem 0;
+.section {
+    margin: 1rem 0;
 }
 
 /* subheadings */
-.subheading-1,
-.subheading-2 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+.subheading {
     color: #27ae60;
     padding: 0.5rem;
     border-radius: 8px;
     text-align: center;
-    max-width: fit-content;
     margin: 0 auto 1rem auto;
     text-decoration: underline;
 }
 
-.subheading-1__container,
-.subheading-2__container {
+.subheading__content {
     text-align: left;
     display: inline-block;
     margin-top: -1rem;
 }
 
 /* lists */
-.subheading-1__container__list,
-.subheading-2__container__list {
+.subheading__list {
     padding: 0;
 }
 
-.subheading-2__container__listItem__span,
-.subheading-2__container__listItem__span,
-.subheading-2__container__listItem__span,
-.subheading-2__container__listItem__span,
-.subheading-2__container__listItem__span {
+.section__list-highlight {
     margin-bottom: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
